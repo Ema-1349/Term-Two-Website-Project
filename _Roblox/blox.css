@@ -1,0 +1,94 @@
+h2 {
+	font-family: Alfa Slab One;
+	text-align: center;
+	color: red;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	Text-shadow: 3px 1.5px 5px black;
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 100px;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+	border-radius: 75px;
+}
+li {
+	display:inline;
+	float:left;
+	width:356px;
+}
+			
+a {
+	display: block;
+	padding: 10px;
+	background-color: white;
+}
+			
+ul {
+	overflow: hidden;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+			
+li a {
+	display:block;
+	color:white;
+	text-align:center;
+	padding: 15px;
+	text-decoration: none;
+}
+			
+li a:hover {
+	background-color: #fd6666;
+	-webkit-text-stroke-color: white;
+	color: red;
+}
+			
+.current {
+	background-color: #fd0101;
+    -webkit-text-stroke-color: white;
+	color: red;
+	font-size: 25px;
+	border-radius: 100px 100px 100px 100px;
+}
+			
+.current:hover {
+	background-color: #fd6666;
+}
+
+body {
+	background-image: url(images/back.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+a {
+	font-family: Alfa Slab One;
+	-webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: red; 
+	font-size: 20px;
+}
+
+.left {
+	border-radius: 0px 100px 100px 100px;
+}
+
+.center {
+	border-radius: 100px 100px 100px 100px;
+}
+
+.right {
+	border-radius: 100px 0px 100px 100px;
+}
+
+.bloxy {
+	filter: opacity(90%) brightness(125%)
+}
