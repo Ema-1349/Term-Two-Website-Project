@@ -6,6 +6,7 @@ h2 {
 	-webkit-text-stroke-color: white;
 	Text-shadow: 3px 1.5px 5px black;
 	text-decoration: underline;
+	font-size:30px;
 }
 
 .logo {
@@ -93,9 +94,10 @@ a {
 
 .bloxy {
 	filter: opacity(90%) brightness(150%) drop-shadow(0px 0px 50px black) blur(1px);
-	margin-left: 25px;
+	padding-left: 0px;
 	border-radius: 500px;
 	padding: 50px;
+	padding-top: 80px;
 }
 
 .bloxy:hover {
@@ -122,7 +124,7 @@ p {
 	font-family: Gloria Hallelujah;
 	padding:0px;
 	float: center;
-	text-shadow: 2px 2px 3px black, -2px -2px 3px black;
+	text-shadow: 2px 2px 3px #6f6f6f, -2px -2px 3px red;
 	Color: white;
 }
 
@@ -138,11 +140,11 @@ p {
 
 h3 {
 	font-family: Alfa Slab One;
-	text-align: right;
-	margin-right: 300px;
+	text-align: center;
 	color: red;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: white;
-	Text-shadow: 3px 1.5px 5px black;
+	Text-shadow: 3px 1.5px 5px nlack;
 	text-decoration: underline;
+	font-size: 25px;
 }
