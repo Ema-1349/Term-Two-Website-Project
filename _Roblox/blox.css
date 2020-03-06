@@ -247,25 +247,53 @@ h2:hover {
 	margin-right: 20px;
 	padding-bottom: 40px;
 	padding-top: 40px;
+	transform: translateY(20px);
+}
+
+.oned {
+	font-size: 20px;
+	padding-left:50px;
+	transform: translateY(20px);
+	width: 250px;
+	padding-top: 20px;
+	text-shadow: 5px 5px 10px red , -5px -5px 10px red;
+	color: white;
+}
+
+.oned:hover {
+	transform: translateY(20px) translateX(10px);
 }
 
 .one {
 	font-size: 20px;
 	padding-left:50px;
-	transform: translateY(35px);
+	transform: translateY(20px);
 	width: 180px;
 	padding-top: 20px;
+	text-shadow: 5px 5px 10px red , -5px -5px 10px red;
+	color: white;
 }
 
 .one:hover {
-	transform: translateY(35px) translateX(10px);
+	transform: translateY(20px) translateX(10px);
+}
+
+.rec {
+	padding-top: 30px;
+	transform: translateY(30px);
+}
+
+.rec:hover {
+	transform: translateY(30px);
+	animation: none;
+	animation-iteration-count: 1;
 }
 
 .onedesc {
 	font-size: 18px;
 	padding-left: 35px;
 	text-indent: 10px;
-	transform: translateY(50px);
+	transform: translateY(35px);
 }
 
 .loom {
@@ -286,12 +314,15 @@ h2:hover {
 	-ms-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.045); 
-
 }
 
-
-
-
+.kk {
+	width:640px;
+	height: 500px;
+	float:right;
+	transform: translateY(-25px);
+	padding-right:5px;
+}
 
 
 
